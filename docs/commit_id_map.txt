@@ -1,0 +1,224 @@
+Commit ID map
+=============
+
+This repository continues haady10/DrivePriority-AI. It was copied to haady10/DrivePriority-AI_ITE442
+on 23 November 2026 with its full history (all branches, commits, dates and messages). The copy gave every
+commit a new ID. Some documents and run records written before the copy, including the Phase 5 test run
+record (docs/phase5_test_run_record/) and the result archives, cite the old IDs. Those files are kept
+unchanged so that their SHA-256 checksums stay valid. Use this table to find the new commit for an old ID.
+
+Old IDs cited in this repository's files are marked with *.
+
+Date        Old ID    New ID      Message
+----------  -------   -------     -------
+2026-10-30  5046d23   f75cc77     Initial commit
+2026-10-31  a5b2e96   6c2ea5b     Set up Python environment and H2O training test
+2026-11-01  d2d1249   880be45     feat: define the Backblaze ingestion data contract
+2026-11-01  e09b769   9d5e684     feat: add resumable Backblaze archive ingestion
+2026-11-01  bde27e0   5a02859     docs: add Backblaze ingestion pipeline runbook
+2026-11-01  a97e7eb   1adca16     fix: secure ingestion recovery identity and checkpoints
+2026-11-01  35da336   df5dc15     fix: enforce ingestion trust and validation gates
+2026-11-01  bf78341   1538002     fix: strengthen scientific ingestion accounting
+2026-11-01  43bef4e   c4ba50c     fix: bound exception processing and preserve parser failures
+2026-11-01  a2bbf40   149cbfd     test: add reproducibility and historical compatibility evidence
+2026-11-01  5d5ed69   200c17d     feat: formalize quarterly schema contracts
+2026-11-02  799a6df   a1bf246     fix: harden publication recovery and evidence integrity
+2026-11-02  dc0c2e4   9ec5fc2     fix: bind recovery to runtime and scientific config
+2026-11-02  c33af0c   47db361     fix: preserve source evidence and reconcile outputs
+2026-11-02  85648af   6a237fd     perf: bound canonical buffers and collision audits
+2026-11-02  d1e135d   54a5a81     fix: report parser failure locations accurately
+2026-11-02  0c6ef7b   3f5fdd3     fix: harden exception evidence reconciliation
+2026-11-02  022412d   ff49c48     fix: recover verified pre-marker publications
+2026-11-02  ce33bb1   c95a3c2     fix: verify source integrity before recovered publication
+2026-11-02  32ab45a   22b7bef     fix: distinguish AppleDouble metadata from historical CSV data
+2026-11-02  593f6f9   1938b4e     fix: validate AppleDouble structure and recovery evidence
+2026-11-03  a7ad2e9   ca951ad     Fix CR-only CSV header inspection and exact missing-value contract (v0.1.5)
+2026-11-03  4687602   9618b02     Enforce the 1 MiB header limit before returning a header record
+2026-11-04  d5743a0   aa4e721     chore: preserve final stabilization inputs
+2026-11-04  1b1abb5   c75bffa     merge: integrate Q1 pipeline review fixes
+2026-11-04  4a68cbc   983492c     feat: finalize Gitless cleaning analysis and revalidation
+2026-11-04  4a68fe3   035c3c3     feat: complete recoverable central integration
+2026-11-04  e8fbb0f   402b7b3     test: isolate central revalidation fixture
+2026-11-04  a83303c   e3ef7e7     fix: expose Windows launcher help commands
+2026-11-04  c567005   a3c212e     chore: remove obsolete central writer backup
+2026-11-04  13bd2c0   3fffbf5     feat: finalize five-operator cleaning operations
+2026-11-04  616593b   978addf     fix: dispatch central Windows commands safely
+2026-11-04  11c93c4   fed9d82     docs: version central Windows compatibility release
+2026-11-04  8e8cae3   697591d     feat: add incremental central integration v1.1.0
+2026-11-04  79fdef9   86eeb9a     fix: support legacy Windows path limits
+2026-11-05  0ecce5d   acd5f89     feat: Phase 2 data profile and Phase 3 labels, features and splits
+2026-11-05  7f455df   3769b92     feat: read-only package inspection report for quarter ZIPs
+2026-11-05  494453d   71b3400     feat: central integration 1.1.2 - recorded policy for revalidation Level 2/3 authenticity 
+2026-11-05  285214a   8271dba     fix: keep revalidation evidence when rebuilding an incremental snapshot (1.1.3)
+2026-11-05  ff31716   8710e6e     feat: central integration 1.1.4 - central research-use approval list bound to quarter and 
+2026-11-05  693a26b   9b842dc     fix: drive identity ignores model-name spacing; capacity <= 0 treated as missing
+2026-11-05  f4f0fb7   1502a9d     feat: central integration 1.1.5 - exceptions.parquet required only when processing.excepti
+2026-11-05  1596eed   a9371c8     tools: inspect_packages also checks status, exceptions rule and central approvals
+2026-11-05  14d0bcf   f3b848c     fix: profile feature-signal step streams in one pass with approximate quantiles (was out o
+2026-11-05  c855c0c   0d795f1     inspect_packages: check pipeline version against release trust registry, print runtime has
+2026-11-05  76813a6   f596152     Pin runtime source hash per release when the registry lists one; inspection tool applies t
+2026-11-05  6a949f4   3ca62ef     Add snapshot compaction (one Parquet file per quarter, verified against the central manife
+2026-11-05  bd55880   67b2cd3     Add unattended watcher (tools/auto_integrate.py): checks new quarter ZIPs, copies READY on
+2026-11-05  a901c2b   7015734     auto_integrate: default poll interval 60 minutes
+2026-11-05  f874de8   9a53c9b     auto_integrate: wait while another integration operator is running
+2026-11-05  5ddc8b0   26360f3     auto_integrate: --stop-at-quarters stops the watcher once the target is reached
+2026-11-05  5ee5d41   9239a57     auto_integrate: do not start another snapshot when free disk is too small
+2026-11-06  0777573 * 0d0999f     Phase 4: H2O training and evaluation script (lr, glm, gbm, drf + SMART rule baseline), met
+2026-11-06  500a5c1   cbbec51     Phase 4: score unknown-label validation/test rows too (kept as competitors for the inspect
+2026-11-07  f2c24f9   94cd2bf     Phase 3: deterministic duplicate rule, dup_conflict flag, duplicate audit (exact vs confli
+2026-11-07  bb22ad5   1d2c94a     Phase 3: change features are NULL without an earlier value in the window (R24); test that 
+2026-11-07  cf3cbbb   3db0697     Merge pull request #2 from haady10/phase3/dup-audit
+2026-11-07  dfbb3a7   983a392     Phase 4: --port option and busy-port guard so two horizons can run on one PC without shari
+2026-11-07  0ca173b   407f256     Phase 3: HDD-only cohort filter (R13) with versioned drive-type registry v1 (162 models: 1
+2026-11-10  8296b1b   68530d6     Phase 4 v4: fixes from the independent code review (10 Nov 2026)
+2026-11-10  f7004d4 * 50dda73     Phase 4 v5: fixes from reviews 2 and 3 (10 Nov 2026)
+2026-11-10  6dc2034   c95567c     Freeze Phase 4 protocol before the final test evaluation (rule R26)
+2026-11-11  db2ab78   777ceb4     Protocol log: final runs accepted, primary models (DRF at 7/14/30 days), git commit note
+2026-11-11  4108331   8cbbe17     Merge pull request #3 from haady10/phase4/review-fixes
+2026-11-11  b0d6dbc   a788ee3     Merge pull request #4 from haady10/phase3/hdd-cohort
+2026-11-11  89d624b   a052701     Phase 5 protocol fixed before any replay code or result (docs + machine-readable config)
+2026-11-11  cb1a1ad   e868713     Phase 5: inspection replay engine, events, RQ1 contrasts, RQ2 persistence and turnover, RQ
+2026-11-11  61ba45c * 8cbfe67     Phase 5: full-fleet feature and scoring job (rule R18) with sample reconciliation tests
+2026-11-11  349913a   ad7648a     Phase 5: validation dry-run results on the 10% sample (exploratory, test split not opened)
+2026-11-12  1e9d54f * c3a76af     Phase 5: fixes for the independent review of 12 Nov 2026 (B1-B4, C1-C6)
+2026-11-12  6fabff1 * 8b55dfa     Phase 5: record the repeat of the validation dry run with the fixed code (no reported numb
+2026-11-12  62c0cd5 * 72ff43b     Phase 5: three small actions from the re-review of 12 Nov 2026
+2026-11-12  a66d350   2587dd2     Phase 5: record the final independent review verdict (accept) and its limits
+2026-11-12  87d0813 * e22b79d     Full-fleet features: allow and count the one expected label difference (drive returns afte
+2026-11-12  991fff0 * bf05254     Quote file paths safely in SQL (a folder name with an apostrophe broke the Mac re-run)
+2026-11-13  2d91eb7   7c0400c     Phase 5: record the review of the full-fleet validation results (AI reviewer; human review
+2026-11-13  68a8e3e * 621c814     Add phase5_test_authorization configuration file
+2026-11-13  0b83f55 * a4e3507     Phase 5: how the test results will be read (written before any test number exists)
+2026-11-13  2eb8f75 * 22d7d00     Phase 5 test reading plan: input completeness check and column wording (before any test nu
+2026-11-13  3ed8008   4e176cf     Phase 5: record of the one-time full-fleet test run (run_info, checks, result tables, summ
+2026-11-13  455d51a   90bcbba     Phase 5: lock register entry of the one-time test replay (copied from the lab PC)
+2026-11-13  bcb2154   cead97d     Phase 5: input hashes of the test run (18 monthly parts and both manifests)
+2026-11-14  bd1f299   1842f5f     Phase 5: second-pass review of the test results and corrected reading (numbers unchanged)
+2026-11-14  b536675   5fddfbd     Phase 5: acceptance of the test results is pending (2025-05-12 observation gap); budget qu
+2026-11-14  e16f2f5   28d9213     Phase 5: root cause of the 2025-05-12 gap - absent in the original Backblaze archive (one 
+2026-11-14  9363218   e535924     Phase 5 run record: test results accepted as computed (2025-05-12 gap explained)
+2026-11-14  9f0dcb5   f8ad870     Phase 5 gap note: direct source-side row counts confirm the shortfall was in the original 
+2026-11-14  bb73082   8a4d106     Phase 5 finding: SMART 187 and 188 are Seagate-only, so the count baseline cannot rank oth
+2026-11-14  308420b   ab02e19     Phase 5: claim-to-evidence map and limitations table for the manuscript
+2026-11-14  78282d4 * a126da5     Phase 5 (post-test, reporting only): late_only_strict, per-file input hashes, input comple
+2026-11-14  99ccc5a * 66433ba     Merge pull request #5 from haady10/phase5/simulation
+2026-11-14  42fe6db   6812565     Literature check against the ten supplied papers and claim-by-claim novelty verdict
+2026-11-15  07b386b   d3e18d5     Phase 5 (post-test, read-only): breakdown of the never-captured failures
+2026-11-15  78db1f7   cba1434     Phase 5: apply the independent final review (accept with changes); wording and denominator
+2026-11-15  248e88e   c26c7ed     Claims: add Phase 3 sampling rates (A36) and failure-enriched training limitation (B22), v
+2026-11-15  5bdb3db   219645d     Wider literature review outcome; limitation B23 (missing SMART counter counted as not posi
+2026-11-18  9fa7731   a042cad     Record the human review (18 Nov 2026): close B17, track requested changes H1-H6
+2026-11-18  ce724b0 * 3edf1d3     Manuscript V1 reviews: README, review response, model-cluster bootstrap (post hoc), claims
+2026-11-20  44f98cf   80936f5     Strict publication review (19 Nov): result archives, verification, post hoc read-only chec
+2026-11-20  41ace6d   2523435     Reproducible by-make table and manuscript table/figure generator
+2026-11-20  8e3771d * 0c775a2     Amendment A1: post hoc fair SMART baselines and unplaced failures (scripts, not yet run)
+2026-11-20  32c763a * 6d65fd7     Amendment A1 results: archives, tables data, results note; summarise --out accepts a folde
+2026-11-20  27e7e9d * 3b30fcd     V4 peer review: A1 drive-model intervals, loader drive-ID check, quota docstring fix, revi
+2026-11-20  e736b13   35121a3     V5 review: make shares in the A1 table data; review response
+
+Full IDs (old new):
+
+5046d2330c5f214c548ba828b417c2fcda5f9e32 f75cc7739beca266945464e95af20d9258c46cbb
+a5b2e968e3a7bdcee0221927fca47e55daf9479f 6c2ea5b38ee77ec9dfad60685933fe0284e9f16a
+d2d1249a6572b2ec1b979f494bbcead3eae011e4 880be45cc6effeb490adf234d6bb8214b50209f0
+e09b7692721ef89dddf8276780a5be8b7e68fa53 9d5e684710ae78402b7396305d7158e9fe87234f
+bde27e0c27a72e06a7aaf2d7ff0ad793885a115f 5a02859c3fdcabe8cb6a5fdf5e8a9d4a7eeeef4e
+a97e7eb58e5f8b13a5ea55dffddbb4be60a57f56 1adca161e75db1f2ce0c9580fb99f0340d72d8d1
+35da336eb6bcfaf892aedf86d94ae976d8e06d36 df5dc155906ba6d5a4e6007ed75c1e39b009f69b
+bf78341eed477cad74ab18fecc142260c0d8ecea 153800248546d82706f68c9501ae721fa0a40464
+43bef4e990f00ac29aab3d8b6c640d5be5a1a71e c4ba50c3da4af2079e31edaeebea0604f725ca4a
+a2bbf406e1a8fb543b2376be51bb2601423097e0 149cbfd2d5cf052e16fce696dc9b88c26293025d
+5d5ed69a485a042feabdc28d847f5b922f8fc1d5 200c17d4792df6dbf48f4fb6e260c9b1ce568147
+799a6dffdbf1171eea8f36e34092a469efb278be a1bf24695593d670704f1417e5bd2caa6b40b1c8
+dc0c2e4e6a13465a616b026da0d75360dccac580 9ec5fc2247da159ddbae1370f3774ce60c743f9d
+c33af0c94ca2d4d3d9352aeed345b5b3ac7e5a13 47db36190043746c9f924df157e8b805dbbd8393
+85648af4c1075bf9293678cfabbfccf77657c91b 6a237fd7880d2b04b4a7ec1482be65b189a673ea
+d1e135d44f596130d87bb94f2b07fbf19b32f7aa 54a5a81d0bc43c6ec89b4fe72cecbfbf89fe3405
+0c6ef7becca3a0e4d0a89eb8321d9b26395c4c7a 3f5fdd36043f33742737f02a7dbe6f24e76cb545
+022412d168fcaf88fb666626a01896ed97abdd6b ff49c481ea642987c8555819f367f88cc72d3023
+ce33bb18ebd7c6f88833e32adf57de90346fadef c95a3c25d0bd6ffe89417ab26600d8f03e7ecc27
+32ab45a4cf4d3384c33124fbffbd7e4ed3bc4ae2 22b7bef2e7b8f3be5348254867994f89c5b59306
+593f6f9c373d86ce0e084998bd9fcdb4bc4ef19f 1938b4e04ec4e9d5dd146d934cca8149819c1539
+a7ad2e99090c701fc690cb215aac49b1307d812d ca951ad6de45adaf33efc0761146bbaa389f4926
+468760231cc1b7d8e973a8db2c18fef79705f4ad 9618b029aaf80a991ddfb3ae33dcea53c696b81f
+d5743a0d26d1650206c8fafa1242e24483eab87c aa4e72179b2a77f8b67e55a6e902e758e702b359
+1b1abb59849a71c42a7f23456e542bd8ba7e91f9 c75bffa7eb224d541f221a19a27530c2f8d32290
+4a68cbccc96a85fd02f8bae37cfaf3ccefc8439b 983492cbd6babc09a5e20a569a5276602ee5d82c
+4a68fe3027ca5555f47a313e9b310e2c2aa24f43 035c3c37a6aff94bd8b1ec6c402873bcf987b116
+e8fbb0fc2f44208fa2130aace14604212524a103 402b7b3338b0ea862bd17b7cdd6f90d8b9867b1b
+a83303c7a43df5eedf6899313466f95f8648d37c e3ef7e7d0690e487eb6b0bf1de881f99c862da25
+c56700500d949b4aebe7362d4b069a10ea859d82 a3c212e9d10a5879dd4f3172b07aed82c5404be0
+13bd2c0c6b839402df02d55a53ae26bfa189cb35 3fffbf5801128ce13690ebcad66289f60966db7c
+616593b53a5292e8b33b310650a25ae3237b3d19 978addf4fc62629080b2a39ed62fd0b5f8dbd96a
+11c93c4fe7e04e09a5ea77ca2f1322a7261714e7 fed9d82f12e509a7a43672485be1519dd79babcf
+8e8cae30812cef8ec5c2021f027ef3cbde869e1a 697591d8778cef42124edac7388136d88eca88f7
+79fdef9605a91159d1ee10d66a4d51bc32b06ffd 86eeb9ae5b94423384d6ae5c719b4258e7df0653
+0ecce5d3fcd2c79ae28855968a6b0641b4390445 acd5f89a68c6a0d78717832fc776c46d2f22064c
+7f455df1a09f76c5e96d6ab4a0a7e8fb6ff2812c 3769b928e6e53d9f870cea877d471d3eac8efac3
+494453d68b06ebbb112f86ad1d9ea6f3b4e2b9d9 71b34002313f842175f37a3dabe74e2d6b046ef6
+285214a44c3089e4b72ecccf4c545cab5cb17943 8271dba248146125990373210ccd692e3448fd2c
+ff31716e731e8ef882847348184d5c3bfee03ac0 8710e6eddb2d125b468f10eef69ac21e3244a8cc
+693a26bc14a5045565baac80fe0e6eed545f9e5c 9b842dc78bb06b83e4c4bd3bf21408b03feb8fc9
+f4f0fb717920342fe823192ec96a172a750a4a96 1502a9d5c6bfebd8b6e62620e946da4514492f3e
+1596eede5e80feac8f246563cda6a47c1715f590 a9371c889fc7fe5b82531ecb3673482d3187b4a5
+14d0bcfe3d3af8d32cda0caea27dde2eb7dad3a7 f3b848c148803def257ed98d868c64b441277868
+c855c0cb182dbf7c4c7c7fa372606feb0cf83c43 0d795f193824c20de9fb6a141089a4202ace23d2
+76813a6b8eadf3c45c2bc8e8111120f571fa2290 f596152fdc776eae084cd29c82cf1e90bacb8956
+6a949f442b073ce171b803617f85e2ac90957bcf 3ca62ef14e104c2c2b1fd45104c288d389cea622
+bd55880e32945476b8dc66ea2695b658b4344ce7 67b2cd3df0e57c4026684679ffb45b79322a596e
+a901c2be45da9d153c111278919c2f86e16e272b 70157349ae2b84ed6bc2c3ba8a810fea775a080b
+f874de8ae1d90ae89115a6bd0142dcbc235fc988 9a53c9bb06ea9edf1e58d4ab1efa71cd2443cb75
+5ddc8b0a7c6d8a420bef4fc0291e3ef686f50320 26360f302d73fa33ec28bf706458cfae39cf4fe2
+5ee5d41209bc198c197fdd7551c6d96a85481f9a 9239a57d86c35e94b3fad8c72037ac5cbe24819a
+077757364b30dc11f65ed1fa5ee2d4b997dd3884 0d0999f34899787cb6c51833697b771c4c8e5dd6
+500a5c10275a79c3aa7a8cd32210f8eac71a357c cbbec51908d93b5db415ef243667e6513e940f64
+f2c24f97a04fdd1c4c4adb454f1a6633f2d07cdb 94cd2bf47a4a519df895e3e841a96926bd9ad277
+bb22ad5d6016bc1938e5309c0a5decfdf516b297 1d2c94a0fdc60f5e1be23940870ed0c346c5abc7
+cf3cbbbbb8750bfb30efbe7f368b507e4118bf0a 3db0697fe184ac7917b04c91e4c362fbda3753bb
+dfbb3a7bcecacaa6464c7b6045495b9d53b75f03 983a392c8609fd01a27e5bcc28b76d1a4ea3b19e
+0ca173b92708c220179cf690c0c7e54a3b8dacaf 407f2561721195d338b33a44b7c1c5d010ef714d
+8296b1b43a8c5a1befefe09e68fac81e7936449a 68530d6d5dc2d5657a47ec6edb3c524541ae3bff
+f7004d457b6594d2d4cc3ad95902a238365d5c2c 50dda73bac61cec89a35c0bcd7a3c8d25dc8b2ad
+6dc2034e0db736c37fdfd3ad544c6daa516fdac2 c95567cf7d4fc5216f048e23a578d917ef6fa3e1
+db2ab78aaaa9020c9a1a63af092bd3acc851344d 777ceb421f52bbdf37f7d3b299d23bc23cedab95
+4108331c3bbc47f93c652cabea2b0afc4e86d384 8cbbe1703e4d2ece04b6bbbfa7618ce1adbbc681
+b0d6dbc3a20be4bca0ce084359899bc709dcc33a a788ee34473698fb003e3e0b5f86b86de53e6381
+89d624bc57dd81e11c1179bef52f37d85db402d6 a052701ef556a0c367ca0ea4ca145cc9f1dfecb9
+cb1a1ad7a857afd43f10a88fd6bfdf1926b7d253 e868713ddf16ebd5f1be75ed1deb261b1b68982a
+61ba45c32b26bac53067f4b2b0c8b29b2b4b9e4d 8cbfe6746c33abf74353b779c554ef49cda56fe6
+349913a628cdc4bc96880a2007109f7227d89c74 ad7648ac2191ec848ebaf19de682477ec3a5b072
+1e9d54f3c1d7d9c7beb0b03ab45e810f2493642a c3a76af3382c927954122e0e2cd3e3787d1cf550
+6fabff1ade0c0bb4071783646cbecc7ad133e6ee 8b55dfad0fb8c443187c0435fedf9faacdc074a0
+62c0cd5eeddf81e2df55a2258765743b55c9ad13 72ff43b17a55afb139babeeb792ccf09cafc108d
+a66d3506abd33c41ebfc9ccf7d1651981b99e737 2587dd248cdffa2a7464e46468e8502c66a09820
+87d08133ce3e2568944261e9babaab743cea8b14 e22b79dfd5a8c81cb0fb964e08683a93f69d94b7
+991fff0bd11d1d815df079076765284061f3053b bf0525431d347df53aa1c33c0999c3386cec6934
+2d91eb7cbb21490483c6f2168b74458163563bcf 7c0400c39bfb6df4cba8918b4f9dcb64239a653e
+68a8e3e2526fbc681c54b1e62d05cda9ec53e749 621c8145ce18ae560cc3f4dcb47798deeb817443
+0b83f55b34f3ce7c7347f50854a58f4e132936a8 a4e350717f6d574ecf76fd5cad2a9d346c612dcd
+2eb8f759f767c5dcb1d841f9512a2674ccccaa31 22d7d006c1f8a0c21025f78c7b37ddadc873b513
+3ed8008a5b1dd89d2ed45132d3d256399e2a31ce 4e176cf81e3a5626f32e972510c82f41572d4ff6
+455d51a57f70f8efacaf1b57129971bc056d4de6 90bcbbab566cab9850391235c7144666089e2db9
+bcb2154dc84e06d1ccb1b61a5566c74f001a004c cead97d55571bf4ab1a9b3405b97ad10f1cc7903
+bd1f2994069eba85169564daf1ac6c1d5b27770d 1842f5f6fa3122924a2c8fb8ef377dd4c66b7477
+b5366759f3d1caf9f776b3aa34df1b23c44a36fe 5fddfbd28cb7416665870b26ef3b9e39e466d934
+e16f2f5257091cdcf6a76a9897f06ae9faa67660 28d9213ac390a20805f1a6450eba6cd287575321
+9363218ab368f57d715ba6c82c6ed2494434d91a e535924357dd107d43c7db647c8eb91e00ba225d
+9f0dcb5411bb3d7c8e617999333991949a5d0a7e f8ad870cba70a42d6e904af1f6e1b2fbc85d6901
+bb730821480a91ad4ea106db0632ae78a82d5856 8a4d1061fbcc9fed2d173a6417f7904a8ae668f4
+308420b024ac16addb2d081ae99170391951ab59 ab02e19158e5b5b50aed10963f0c78e0227986c4
+78282d4f529d8f8d92adbcae73d08181f543eddf a126da54807dcd75e77b8ffce94ec1b289d62964
+99ccc5adcda8d7b5db6f20471da0198fca4f29d7 66433ba98b0727b73a7620fb98d1174c3e2dd14a
+42fe6dbba84a651df3e101354ab7b71e775cdc9e 6812565e6b961bff7c2d9138ab3fe7a9011a1d58
+07b386b1b1df00671c6dd33da529e53d3adf02e1 d3e18d59be9b0a461964038cbeecf209f40787ed
+78db1f788b9da77de1aa6ac1bf7e26ad8236e222 cba1434c23d5fcd230c246ab2e396c0f42793cb1
+248e88e8482ecb27e42acff6ee255d6f898dfcc8 c26c7ed94f2ba6bb0d04b83451fa3948f9b8be7e
+5bdb3db8aa1855fe352fdab5446bbdbf1fca53ba 219645d930993e2791f5be141cc20c620176da9f
+9fa77312db050038eaee7fb852bc87c469e515a4 a042cad5cba9dc4860ee02da061df52a7ea50cc8
+ce724b001b9aa066ba12094dea12be0d9af08801 3edf1d3c98381523820e6fe3911f2ff25db6aca1
+44f98cfb308297411276be92dd9140b8c1bec925 80936f5ed498e15c35cd02a4915b40d8db3e6102
+41ace6d1f874725a06c98a1251b3f76c0771ea1f 2523435f70bfddc32404185a931f1dc6c82b0527
+8e3771d37ce4ff29b40d784d416e019930856356 0c775a2779cbd0aa31f906095d644daaa1b58124
+32c763a510953a8ece968fbba53ab9089ee55e86 6d65fd7027cecc852e85b7fbe1e5739c1de4aeca
+27e7e9dd240438efd853ab9c086e95d87558daff 3b30fcd56802448a9e6d708dd316980f35b7937f
+e736b13852b12d5a5e4bae07ce7bee722a6e912a 35121a3c144f3ae4151fb3e9cf870e9ec8b45efc
